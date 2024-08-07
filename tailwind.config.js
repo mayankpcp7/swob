@@ -24,6 +24,7 @@ export default {
         "custom-2xl": "52px",
         "custom-xl": "40px",
         "custom-lg": "36px",
+        "custom-xmd": "30px",
         "custom-md": "27px",
         "custom-sm": "17px",
       },
