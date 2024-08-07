@@ -1,6 +1,6 @@
 export const NAV_LINKS_LIST = [
-    { link: 'Home', url: '/' },
-    { link: 'Features', url: '' },
-    { link: 'Testimonials', url: '' },
-    { link: 'Contact Us', url: '' },
+    { link: 'Home', url: '' },
+    { link: 'Über uns', url: '' },
+    { link: 'Kontakt', url: '' },
+    { link: 'FAQ', url: '' },
 ]
