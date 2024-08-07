@@ -17,6 +17,7 @@ export default {
         yellow: "#ffc229",
         "dark-gray": "#18181b",
         "light-gray": "#f5f5f5",
+        "light-black": "#090914",
       },
       fontSize: {
         "custom-4xl": "60px",
@@ -24,6 +25,7 @@ export default {
         "custom-2xl": "52px",
         "custom-xl": "40px",
         "custom-lg": "36px",
+        "custom-xmd": "30px",
         "custom-md": "27px",
         "custom-sm": "17px",
       },
@@ -37,9 +39,15 @@ export default {
         111: "111%",
         133: "133%",
         120: "120%",
+        164: "164%",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+      },
+      backgroundImage: {
+        gradientYellow:
+          "linear-gradient(192.34deg, #FFD364 0%, #FFBB10 98.09%)",
+        comment: "url(/assets/images/png/bg-comment.png)",
       },
     },
   },
