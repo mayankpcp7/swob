@@ -3,7 +3,7 @@
         <div class="container mx-auto px-4 md:px-3 ">
             <div class="row flex-row pb-9 flex-wrap flex">
                 <div class="w-full md:w-1/2">
-                    <h1 class="font-semibold max-w-[530px] text-off-black text-center md:text-start mx-auto md:mx-0 mb-4 mb-md-4 leading-120 text-custom-4xl">
+                    <h1 class="font-semibold max-w-[530px] tracking-[-4%] text-off-black text-center px-4 sm:px-0 md:text-start mx-auto md:mx-0 mb-4 mb-md-4 leading-120 text-custom-xmd md:text-custom-4xl">
                         Revolutioniere dein
                         HR-Management</h1>
                     <p
