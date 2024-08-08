@@ -1,8 +1,9 @@
  <template>
-  <div class="bg-light-gray py-20">
-    <div class="container xl:max-w-[1304px] mx-auto px-3">
+  <div class="bg-light-gray pb-20 lg:pt-[197px] md:pt-[150px] sm:pt-[110px] pt-12 relative">
+    <NuxtImg src="/assets/images/png/faq-layer.png" alt="faq-layer" class="absolute w-full top-0 sm:block hidden"/>
+    <div class="container xl:max-w-[1304px] mx-auto px-3 relative z-10">
       <h2
-        class="text-center text-black font-extrabold lg:text-custom-3xl md:text-6xl sm:text-4xl text-custom-xmd leading-110 lg:mb-20 md:mb-16 sm:mb-14 mb-12"
+        class="text-center text-black font-extrabold lg:text-custom-3xl md:text-5xl sm:text-4xl text-custom-xmd leading-110 lg:mb-20 md:mb-16 sm:mb-14 mb-12"
       >
         Häufig gestellte Fragen (FAQ)
       </h2>
