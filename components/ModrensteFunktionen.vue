@@ -340,9 +340,6 @@ onUnmounted(() => {
     </div>
   </div>
 </template>
-<<<<<<< HEAD
-=======
-
 <script setup>
 import Icons from "./common/Icons.vue";
 import BaseInput from "./common/Input.vue";
@@ -356,4 +353,3 @@ select {
   font-size: 18px;
 }
 </style>
->>>>>>> 814dae4b33025ffd5894a2135e774766b3287617

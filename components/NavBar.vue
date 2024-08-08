@@ -43,23 +43,9 @@ const isActiveRoute = (url) => {
             </li>
           </ul>
         </div>
-<<<<<<< HEAD
-        <button
-          class="font-bold hidden sm:block border md:border-2 leading-121 py-2.5 text-xs md:text-base md:py-[14.5px] px-5 md:px-6 rounded-[40px]"
-        >
-          Anmelden
-        </button>
-        <div class="flex items-center md:hidden gap-4">
-          <button
-            class="font-bold block sm:hidden border md:border-2 leading-121 py-2.5 text-xs md:text-base md:py-[14.5px] px-5 md:px-6 rounded-[40px]"
-          >
-            Anmelden
-          </button>
-=======
         <button class="font-bold hidden md:block border hover:bg-black hover:text-white duration-300 hover:border-black md:border-2 leading-121 py-2.5 text-xs md:text-base md:py-[14.5px] px-5 md:px-6 rounded-[40px]">Anmelden </button>
         <div class="flex items-center md:hidden gap-4">
           <button class="font-bold block md:hidden border hover:bg-black hover:text-white duration-300 hover:border-black md:border-2 leading-121 py-2.5 text-xs md:text-base md:py-[14.5px] px-5 md:px-6 rounded-[40px]">Anmelden </button>
->>>>>>> 814dae4b33025ffd5894a2135e774766b3287617
 
           <button @click="isOpen = !isOpen" class="relative z-50 text-black">
             <Icons
