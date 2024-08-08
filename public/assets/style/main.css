@@ -20,3 +20,7 @@
   height: 0px;
   background: transparent;
 }
+
+select option{
+  font-size: 11px !important;
+}
