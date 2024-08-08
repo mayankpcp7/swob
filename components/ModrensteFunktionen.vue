@@ -109,7 +109,7 @@ import Icons from "./common/Icons.vue";
 import BaseInput from "./common/Input.vue";
 </script>
 
-<style scoped>
+<style>
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
