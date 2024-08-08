@@ -38,3 +38,30 @@ export const CARDS_DATA_LIST = [
     linkIcon: "arrowicon",
   },
 ];
+export const accordionData = [
+  {
+    title: "Wie funktioniert SWOB für Arbeitnehmer?",
+    content:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, aliquid! Delectus suscipit temporibus commodi quisquam sapiente animi perspiciatis, culpa aut debitis dolorum nesciunt ipsum accusamus consequatur omnis non enim! Doloremque!",
+  },
+  {
+    title: "Ist SWOB als mobile App verfügbar?",
+    content:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, aliquid! Delectus suscipit temporibus commodi quisquam sapiente animi perspiciatis, culpa aut debitis dolorum nesciunt ipsum accusamus consequatur omnis non enim! Doloremque!",
+  },
+  {
+    title: "Wie kann ich ein Profil auf SWOB erstellen?",
+    content:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, aliquid! Delectus suscipit temporibus commodi quisquam sapiente animi perspiciatis, culpa aut debitis dolorum nesciunt ipsum accusamus consequatur omnis non enim! Doloremque!",
+  },
+  {
+    title: "Sind meine persönlichen Angaben und Daten bei SWOB sicher?",
+    content:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, aliquid! Delectus suscipit temporibus commodi quisquam sapiente animi perspiciatis, culpa aut debitis dolorum nesciunt ipsum accusamus consequatur omnis non enim! Doloremque!",
+  },
+  {
+    title: "Wie kann ich den SWOB-Kundenservice kontaktieren?",
+    content:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, aliquid! Delectus suscipit temporibus commodi quisquam sapiente animi perspiciatis, culpa aut debitis dolorum nesciunt ipsum accusamus consequatur omnis non enim! Doloremque!",
+  },
+];
