@@ -3,7 +3,7 @@
     <NuxtImg src="/assets/images/png/faq-layer.png" alt="faq-layer" class="absolute w-full top-0 sm:block hidden"/>
     <div class="container xl:max-w-[1304px] mx-auto px-3 relative z-10">
       <h2
-        class="text-center text-black font-extrabold lg:text-custom-3xl md:text-5xl sm:text-4xl text-custom-xmd leading-110 lg:mb-20 md:mb-16 sm:mb-14 mb-12"
+        class="text-center text-black md:font-extrabold font-semibold lg:text-custom-3xl md:text-5xl sm:text-4xl text-custom-xmd md:leading-110 leading-127 lg:mb-20 md:mb-16 sm:mb-14 mb-12"
       >
         Häufig gestellte Fragen (FAQ)
       </h2>

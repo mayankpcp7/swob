@@ -61,6 +61,7 @@ export default {
         120: "120%",
         164: "164%",
         140: "140%",
+        127: "127%",
       },
       letterSpacing: {
         tighter: "-0.14px",

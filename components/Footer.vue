@@ -2,7 +2,7 @@
     <div class="container xl:max-w-[1304px] px-4 mx-auto">
 <div class="py-6 flex items-center md:justify-between justify-center flex-wrap">
     <NuxtLink class="sm:hidden flex" to="/">
-        <NuxtImg width={139} height={32} src="/assets/images/png/footer-logo.png" alt="footer-logo" class="w-100 mb-6" />
+        <NuxtImg width={139} height={32} src="/assets/images/png/footer-logo.png" alt="footer-logo" class="w-100 max-w-[139px] mb-6" />
     </NuxtLink>
     <p class="text-base font-normal text-black leading-140 md:mb-0 mb-8">@ {{ new Date().getFullYear() }} SWOB. All rights reserved.</p>
     <div class="flex md:gap-12 gap-8 justify-center items-center flex-wrap">
