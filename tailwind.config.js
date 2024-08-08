@@ -12,6 +12,7 @@ export default {
     extend: {
       colors: {
         "off-black": "#16151c",
+        "light-black": "#171717",
         gray: "#404040",
         "light-orange": "#fff4e8",
         yellow: "#ffc229",
@@ -27,6 +28,9 @@ export default {
       },
       backgroundSize: {
         "Size-100": "100% 100%",
+        "border-white": "#dedede",
+        "light-black": "#090914",
+        "input-gray": "#646464",
       },
       borderRadius: {
         "custom-xl": "20px",
@@ -66,20 +70,12 @@ export default {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
+      boxShadow: {
+       "accordain-shadow": "0px 0px 6px 0px #00000012"
 
-      // boxShadow: {
-      //   commentbox: "-16px 41px 26px 0px #0000000D",
+// box-shadow: 0px 10px 15px -3px #0000001A;
 
-      // box-shadow: -2px 5px 11px 0px #0000001A;
-
-      // box-shadow: -7px 18px 20px 0px #00000017;
-
-      // box-shadow: -16px 41px 26px 0px #0000000D;
-
-      // box-shadow: -29px 73px 31px 0px #00000003;
-
-      // box-shadow: -46px 114px 34px 0px #00000000;
-      // },
+      }
     },
   },
   plugins: [],

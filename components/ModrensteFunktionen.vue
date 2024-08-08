@@ -1,4 +1,3 @@
-<!-- YourComponent.vue -->
 <template>
   <div class="max-w-[1344px] container px-4 mx-auto">
     <h2
@@ -11,7 +10,7 @@
       dir helfen, mehr Nutzer zu konvertieren, zu engagieren und zu binden. Über
       4.000 Start-ups vertrauen uns.
     </p>
-    <div class=" flex-grid grid-col-2 grid-col-1 md:grid-col-4 mt-12 sm:mt-8">
+    <div class="flex-grid grid-col-2 grid-col-1 md:grid-col-4 mt-12 sm:mt-8">
       <div
         class="flex bg-yellow-gradient rounded-xl flex-col max-w-[752px] p-4 lg:px-12 lg:pt-12 lg:pb-7"
       >
@@ -38,7 +37,7 @@
             </div>
             <Icons name="droparrow" />
           </div>
-          <div class="flex pt-4">
+          <div class="flex w-full pt-4">
             <div class="flex flex-col">
               <p class="text-xs text-offblack font-bold mb-1">Vorname</p>
               <BaseInput placeholder="" />
@@ -55,41 +54,44 @@
             >
               <Icons name="gabrudatsum" />
               <BaseInput
+                !type="tel"
                 className="!border-none !w-full"
                 placeholder="--/--/--"
               />
             </div>
           </div>
-          <div class="flex pt-4">
-            <div class="flex flex-col">
-              <p class="text-xs text-offblack font-bold mb-1">Geburtsdatum</p>
+          <div class="flex w-full pt-4">
+            <div class="flex w-full flex-col">
+              <p class="text-xs text-offblack font-bold mb-1">Nationalität</p>
               <div class="relative flex w-full">
                 <select
-                  class="appearance-none w-full sm:px-5 px-3 py-3.5  border border-border-white rounded-md text-off-black text-base focus:outline-none"
+                  class="appearance-none w-full py-2.5 px-5 border border-border-white rounded-md text-off-black text-md focus:outline-none"
                 >
                   <option>Schweiz</option>
                   <option>Germany</option>
                   <option>Austria</option>
                 </select>
                 <span
-                  class="absolute sm:right-6 right-3  z-10 top-1/2 transform -translate-y-1/2 pointer-events-none"
+                  class="absolute sm:right-6 right-3 z-10 top-1/2 transform -translate-y-1/2 pointer-events-none"
                 >
                   <Icons classname="cursor-pointer " name="selectarrow" />
                 </span>
               </div>
             </div>
-            <div class="flex flex-col ms-[14px] md:ms-6">
-              <p class="text-xs text-offblack font-bold mb-1">Aufenthaltsstatus</p>
+            <div class="flex w-full flex-col ms-[14px] md:ms-6">
+              <p class="text-xs text-offblack font-bold mb-1">
+                Aufenthaltsstatus
+              </p>
               <div class="relative flex w-full">
                 <select
-                  class="appearance-none w-full px-5 py-2 border border-border-white rounded-md text-off-black text-base focus:outline-none"
+                  class="appearance-none w-full px-5 py-2.5 border border-border-white rounded-md text-input-gray text-md focus:outline-none"
                 >
                   <option>Aufenthaltsstatus...</option>
                   <option>Germany</option>
                   <option>Austria</option>
                 </select>
                 <span
-                  class="absolute md:right-6 right-3 z-10 top-1/2 transform -translate-y-1/2 pointer-events-none"
+                  class="absolute md:right-5 right-3 z-10 top-1/2 transform -translate-y-1/2 pointer-events-none"
                 >
                   <Icons classname="cursor-pointer " name="selectarrow" />
                 </span>
@@ -107,10 +109,11 @@ import Icons from "./common/Icons.vue";
 import BaseInput from "./common/Input.vue";
 </script>
 
-<style scoped>
+<style>
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  font-size: 18px;
 }
 </style>
