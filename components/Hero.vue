@@ -23,7 +23,7 @@
                       v-model="formData.selectedCountry"
                       class="appearance-none bg-transparent border ms-[-50px] border-r-0  border-[#ccc] px-3 py-2 rounded-l-md font-normal text-gray-dark focus:outline-none text-lg"
                     >
-                    <img src="/public/assets/images/svg/switzerland-icon.svg" alt="">
+                    <img src="/public/assets/images/svg/switzerland-icon.svg" alt="country logo" width="20" height="20">
                       <option v-for="country in COUNTRIES_NUMBER_LIST" :key="country.code" :value="country.code" class="flex !text-gray items-center">
                         <img src="/assets/images/svg/switzerland-icon.svg" width="10px" height="10px" alt="">
                         <img src="/public/assets/images/svg/switzerland-icon.svg" alt="flag" class="w-4 h-4 mr-2" /> {{ country.dial_code }}

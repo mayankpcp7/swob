@@ -61,6 +61,7 @@ export default {
         120: "120%",
         164: "164%",
         140: "140%",
+        127: "127%",
       },
       letterSpacing: {
         tighter: "-0.14px",
@@ -71,11 +72,10 @@ export default {
         inter: ["Inter", "sans-serif"],
       },
       boxShadow: {
-       "accordain-shadow": "0px 0px 6px 0px #00000012"
-
-// box-shadow: 0px 10px 15px -3px #0000001A;
-
-      }
+        "accordain-shadow": "0px 0px 6px 0px #00000012",
+        "comment-box":
+          "0px 0px 0px 0px #0000001A, -2px 5px 11px 0px #0000001A, -7px 18px 20px 0px #00000017, -16px 41px 26px 0px #0000000D, -29px 73px 31px 0px #00000003, -46px 114px 34px 0px #00000000",
+      },
     },
   },
   plugins: [],
