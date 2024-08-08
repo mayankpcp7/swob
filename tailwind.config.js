@@ -18,6 +18,16 @@ export default {
         yellow: "#ffc229",
         "dark-gray": "#18181b",
         "light-gray": "#f5f5f5",
+        "light-black": "#090914",
+        "border-white": "#dedede",
+      },
+      backgroundImage: {
+        "yellow-gradient":
+          " linear-gradient(192.34deg, #FFD364 0%, #FFBB10 98.09%)",
+        comment: "url(/assets/images/png/bg-comment.png)",
+      },
+      backgroundSize: {
+        "Size-100": "100% 100%",
         "border-white": "#dedede",
         "light-black": "#090914",
         "input-gray": "#646464",
@@ -35,6 +45,7 @@ export default {
         "custom-md": "27.02px",
         "custom-sm": "17px",
         "custom-xs": "11px",
+        "custom-xxs": "9.94px",
       },
       lineHeight: {
         118: "118%",
@@ -49,6 +60,8 @@ export default {
         133: "133%",
         120: "120%",
         164: "164%",
+        140: "140%",
+        127: "127%",
       },
       letterSpacing: {
         tighter: "-0.14px",
@@ -58,10 +71,10 @@ export default {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
-      backgroundImage: {
-        "yellow-gradient":
-          "linear-gradient(192.34deg, #FFD364 0%, #FFBB10 98.09%)",
-        comment: "url(/assets/images/png/bg-comment.png)",
+      boxShadow: {
+        "accordain-shadow": "0px 0px 6px 0px #00000012",
+        "comment-box":
+          "0px 0px 0px 0px #0000001A, -2px 5px 11px 0px #0000001A, -7px 18px 20px 0px #00000017, -16px 41px 26px 0px #0000000D, -29px 73px 31px 0px #00000003, -46px 114px 34px 0px #00000000",
       },
     },
   },
