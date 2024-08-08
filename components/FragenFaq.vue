@@ -10,10 +10,10 @@
           <div
             v-for="(item, index) in accordionData"
             :key="index"
-            class="md:p-8 p-6 rounded-[10px] bg-white shadow-accordain-shadow"
+            class="md:pt-7 pb-5 md:px-8 px-6 pt-6 rounded-[10px] bg-white shadow-accordain-shadow"
           >
             <div
-              class="flex justify-between items-center accordion-title cursor-pointer"
+              class="flex justify-between items-center accordion-title cursor-pointer pb-3"
               @click="toggleAccordion(index)"
             >
               <div
@@ -33,8 +33,7 @@
             <div
               :class="{
                 'accordion-content': true,
-                'open': openAccordion === index,
-                'pt-2': openAccordion === index
+                'open': openAccordion === index
               }"
               class="text-base leading-normal text-black font-normal transition-all ease-linear duration-500"
             >
