@@ -47,8 +47,7 @@ const randomVideoUrl = computed(() => {
                     </p>
                     <NuxtLink
                         class="flex items-center justify-center text-yellow gap-2 cursor-pointer font-medium font-base !leading-150"
-                        to="#">
-                        {{ card.linkText }} <span>
+                        to="#"> Mehr erfahren<span>
                             <Icons name="arrowicon" class="text-black" />
                         </span>
                     </NuxtLink>

@@ -1,5 +1,5 @@
 <template>
-  <div class="py-20">
+  <div class="py-20 bg-yellow">
     <div
       class="container xl:max-w-[1287px] px-4 mx-auto bg-gradientYellow pt-[59px] rounded-[40px]"
     >
