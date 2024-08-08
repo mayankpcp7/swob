@@ -16,6 +16,6 @@
                 </div>
             </div>
         </div>
-        <NuxtImg class="absolute bottom-0" width="1440" height="111" src="/assets/images/webp/header-bottom-layer.webp" alt="bottom-layer"/>
+        <NuxtImg class="absolute bottom-0 w-full" width="1440" height="111" src="/assets/images/webp/header-bottom-layer.webp" alt="bottom-layer"/>
     </section>
 </template>
