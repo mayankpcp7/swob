@@ -15,7 +15,7 @@ import Icons from "./common/Icons.vue";
             <div class="relative">
                 <NuxtImg class="w-100 hidden sm:block mx-auto" width="862" height="580"
                     src="/assets/images/webp/modernste-data.png" alt="modern-data-image" />
-                <Icons name="videoPlayIcon" class="absolute top-[45%] left-[45%]" />
+                <Icons name="videoPlayIcon" class="absolute cursor-pointer top-[45%] left-[45%]" />
             </div>
             <NuxtImg class="sm:hidden block max-w-[284px] mx-auto" src="/assets/images/webp/iphone.png"
                 alt="moder-data-image" />

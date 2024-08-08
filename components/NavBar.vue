@@ -18,7 +18,7 @@ const isActiveRoute = (url) => {
 }
 </script>
 <template>
-  <div class="max-w-[1140px] bg-white mx-auto">
+  <div class="max-w-[1240px] bg-white mx-auto">
     <nav class="border-b border-black border-opacity-5">
       <div class="container mx-auto px-4 md:px-3 flex items-center justify-between py-4 md:py-6 custom-container">
         <div class="flex gap-12">
