@@ -1,5 +1,4 @@
 <script setup>
-// import Icons from "./common/Icons.vue";
 import BaseInput from "./common/Input.vue";
 </script>
 
@@ -16,7 +15,7 @@ select {
             <div class="row flex-row pb-9 flex-wrap flex">
                 <div class="w-full md:w-7/12">
                     <h1
-                        class="font-semibold max-w-[530px] tracking-[-4%] text-off-black text-center px-4 sm:px-0 md:text-start mx-auto md:mx-0 mb-4 mb-md-4 !leading-120 text-custom-xmd md:text-custom-4xl">
+                        class="font-semibold max-w-[530px] font-inter tracking-[-4%] text-off-black text-center px-4 sm:px-0 md:text-start mx-auto md:mx-0 mb-4 mb-md-4 !leading-120 text-custom-xmd md:text-custom-4xl">
                         Revolutioniere dein
                         HR-Management</h1>
                     <p

@@ -3,14 +3,14 @@ import { ref, computed } from 'vue';
 import Icons from './common/Icons.vue';
 
 const youtubeVideos = ref([
-  "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-  "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-  "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
+    "https://www.youtube.com/watch?v=oHg5SJYRHA0",
 ]);
 
 const randomVideoUrl = computed(() => {
-  const randomIndex = Math.floor(Math.random() * youtubeVideos.value.length);
-  return youtubeVideos.value[randomIndex];
+    const randomIndex = Math.floor(Math.random() * youtubeVideos.value.length);
+    return youtubeVideos.value[randomIndex];
 });
 </script>
 
@@ -31,8 +31,8 @@ const randomVideoUrl = computed(() => {
                     <Icons name="videoPlayIcon" class="absolute hidden sm:block cursor-pointer top-[45%] left-[45%]" />
                 </a>
             </div>
-            <NuxtImg class="sm:hidden block max-w-[284px] h-[360px] mx-auto" height="360" width="284" src="/assets/images/webp/iphone.webp"
-                alt="moder-data-image" />
+            <NuxtImg class="sm:hidden block max-w-[284px] h-[360px] mx-auto" height="360" width="284"
+                src="/assets/images/webp/iphone.webp" alt="moder-data-image" />
             <div class="flex flex-row md:pt-10 lg:pt-20 justify-center xl:justify-start flex-wrap">
                 <div v-for="(card, index) in CARDS_DATA_LIST" :key="index"
                     class="w-full md:w-1/2 xl:w-1/3 pt-8 xl:pt-0">

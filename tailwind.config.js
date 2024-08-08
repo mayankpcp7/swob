@@ -19,10 +19,8 @@ export default {
         "dark-gray": "#18181b",
         "light-gray": "#f5f5f5",
         "border-white": "#dedede",
-      },
-      backgroundImage: {
-        "yellow-gradient":
-          " linear-gradient(192.34deg, #FFD364 0%, #FFBB10 98.09%)",
+        "light-black": "#090914",
+        "input-gray": "#646464",
       },
       borderRadius: {
         "custom-xl": "20px",
@@ -50,6 +48,7 @@ export default {
         111: "111%",
         133: "133%",
         120: "120%",
+        164: "164%",
       },
       letterSpacing: {
         tighter: "-0.14px",
@@ -58,6 +57,11 @@ export default {
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+      },
+      backgroundImage: {
+        "yellow-gradient":
+          "linear-gradient(192.34deg, #FFD364 0%, #FFBB10 98.09%)",
+        comment: "url(/assets/images/png/bg-comment.png)",
       },
     },
   },
