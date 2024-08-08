@@ -1,4 +1,4 @@
-<!-- YourComponent.vue -->
+
 <template>
   <div class="max-w-[1344px] container px-4 mx-auto">
     <h2
