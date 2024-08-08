@@ -35,14 +35,14 @@ const randomVideoUrl = computed(() => {
                 src="/assets/images/webp/iphone.webp" alt="moder-data-image" />
             <div class="flex flex-row md:pt-10 lg:pt-20 justify-center xl:justify-start flex-wrap">
                 <div v-for="(card, index) in CARDS_DATA_LIST" :key="index"
-                    class="w-full md:w-1/2 xl:w-1/3 pt-8 xl:pt-0">
+                    class="w-full md:w-1/2 xl:w-1/3 px-3 pt-8 xl:pt-0">
                     <div class="size-12 mx-auto rounded-full flex items-center justify-center bg-light-orange">
                         <Icons :name="card.iconName" />
                     </div>
                     <h3 class="text-center text-off-black text-xl font-medium mt-5 mb-2">
                         {{ card.title }}
                     </h3>
-                    <p class="text-base font-normal mb-5 max-w-[357px] !leading-150 text-center mx-auto">
+                    <p class="text-base font-normal text-gray mb-5 max-w-[357px] !leading-150 text-center mx-auto">
                         {{ card.description }}
                     </p>
                     <NuxtLink

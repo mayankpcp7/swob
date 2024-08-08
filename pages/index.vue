@@ -20,7 +20,7 @@ import ModrensteFunktionen from "~/components/ModrensteFunktionen.vue";
     <ModrensteFunktionen />
     <FragenFaq />
     <SwobKostenlos />
-    <Footer />
+    <Footer/>
     <Modrenste />
   </div>
 </template>

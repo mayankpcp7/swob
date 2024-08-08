@@ -4,7 +4,6 @@
 @tailwind utilities;
 
 * {
-<<<<<<< HEAD
   font-family: Inter, sans-serif
 }
 ::-webkit-scrollbar-track {
@@ -20,7 +19,4 @@
   width: 8px;
   height: 0px;
   background: transparent;
-=======
-font-family: "Inter", sans-serif;
->>>>>>> 8d6633030f75cd2b9e50e94603a61c2fca3f0d84
 }

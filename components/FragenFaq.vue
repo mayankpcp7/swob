@@ -1,4 +1,4 @@
- <template>
+<template>
   <div class="bg-light-gray py-20">
     <div class="container xl:max-w-[1304px] mx-auto px-3">
       <h2
@@ -6,47 +6,47 @@
       >
         Häufig gestellte Fragen (FAQ)
       </h2>
-        <div class="w-full flex flex-col gap-6" data-aos="zoom-in-up">
+      <div class="w-full flex flex-col gap-6" data-aos="zoom-in-up">
+        <div
+          v-for="(item, index) in accordionData"
+          :key="index"
+          class="md:pt-7 pb-5 md:px-8 px-6 pt-6 rounded-[10px] bg-white shadow-accordain-shadow"
+        >
           <div
-            v-for="(item, index) in accordionData"
-            :key="index"
-            class="md:pt-7 pb-5 md:px-8 px-6 pt-6 rounded-[10px] bg-white shadow-accordain-shadow"
+            class="flex justify-between items-center accordion-title cursor-pointer pb-3"
+            @click="toggleAccordion(index)"
           >
             <div
-              class="flex justify-between items-center accordion-title cursor-pointer pb-3"
-              @click="toggleAccordion(index)"
+              class="w-full text-left flex items-center justify-between font-medium md:text-xl text-lg leading-110 text-black"
             >
-              <div
-                class="w-full text-left flex items-center justify-between font-medium md:text-xl text-lg leading-110 text-black"
-              >
-                {{ item.title }}
-              </div>
-              <div
-                :class="{
-                  'rotate-[180deg]': openAccordion === index
-                }"
-                class="transition-all duration-300 ease-linear"
-              >
-                <Icons name="accordianArrow"/>
-              </div>
+              {{ item.title }}
             </div>
             <div
               :class="{
-                'accordion-content': true,
-                'open': openAccordion === index
+                'rotate-[180deg]': openAccordion === index
               }"
-              class="text-base leading-normal text-black font-normal transition-all ease-linear duration-500"
+              class="transition-all duration-300 ease-linear"
             >
-              {{ item.content }}
+              <Icons name="accordianArrow"/>
             </div>
           </div>
+          <div
+            :class="{
+              'accordion-content': true,
+              'open': openAccordion === index
+            }"
+            class="text-base leading-normal text-black font-normal transition-all ease-linear duration-500"
+          >
+            {{ item.content }}
+          </div>
         </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import Icons from "./common/Icons.Vue";
+import Icons from "./common/Icons.vue";
 import { ref } from 'vue';
 
 const openAccordion = ref(null);
@@ -60,12 +60,12 @@ const toggleAccordion = (index) => {
   max-height: 0;
   opacity: 0;
   overflow: hidden;
-  transition: max-height 0.8s ease-in-out, opacity 0.3s ease-in-out 0.3s;
+  transition: max-height 0.5s ease, opacity 0.5s ease 0.1s;
 }
 
 .accordion-content.open {
   max-height: 500px;
   opacity: 1;
-  transition: max-height 0.8s ease-in-out, opacity 0.3s ease-in-out;
+  transition: max-height 0.5s ease, opacity 0.5s ease 0.1s;
 }
 </style>

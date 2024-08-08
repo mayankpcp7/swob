@@ -6,7 +6,7 @@
             <h1 class="font-semibold max-w-[530px] font-inter tracking-[-4%] text-off-black text-center px-4 sm:px-0 md:text-start mx-auto md:mx-0 mb-4 mb-md-4 !leading-120 text-custom-xmd md:text-custom-4xl">
               Revolutioniere dein HR-Management
             </h1>
-            <p class="text-gray font-normal !leading-144 max-w-[383px] mb-8 mb-md-6 text-center mx-auto md:mx-0 md:text-start text-lg">
+            <p class="text-gray font-normal !leading-144 max-w-[414px] mb-8 mb-md-6 text-center mx-auto md:mx-0 md:text-start text-lg">
               Eine HR-Software für jede Unternehmensgröße. Bleib über unsere Einführung auf dem Laufenden.
             </p>
             <div class="bg-white mx-auto md:mx-0 max-w-[530px] mb-10 md:mb-0 p-6 rounded-[20px]">
@@ -23,6 +23,7 @@
                       v-model="formData.selectedCountry"
                       class="appearance-none bg-transparent border ms-[-50px] border-r-0  border-[#ccc] px-3 py-2 rounded-l-md font-normal text-gray-dark focus:outline-none text-lg"
                     >
+                    <img src="/public/assets/images/svg/switzerland-icon.svg" alt="">
                       <option v-for="country in COUNTRIES_NUMBER_LIST" :key="country.code" :value="country.code" class="flex !text-gray items-center">
                         <img src="/assets/images/svg/switzerland-icon.svg" width="10px" height="10px" alt="">
                         <img src="/public/assets/images/svg/switzerland-icon.svg" alt="flag" class="w-4 h-4 mr-2" /> {{ country.dial_code }}

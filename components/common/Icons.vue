@@ -28,17 +28,17 @@ const svg = {
 <path d="M1.33334 6.77004H13M13 6.77004L7.16668 0.936707M13 6.77004L7.16668 12.6034" stroke="#FFC229" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 `,
-    messageBox: `<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+    messageBoxIcon: `<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M22.6667 6.77002C22.6667 5.67002 21.7667 4.77002 20.6667 4.77002H4.66667C3.56667 4.77002 2.66667 5.67002 2.66667 6.77002M22.6667 6.77002V18.77C22.6667 19.87 21.7667 20.77 20.6667 20.77H4.66667C3.56667 20.77 2.66667 19.87 2.66667 18.77V6.77002M22.6667 6.77002L12.6667 13.77L2.66667 6.77002" stroke="#FFC229" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
 `,
-    zeit: `<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+    zeitIcon: `<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M13 2.77002L3 14.77H12L11 22.77L21 10.77H12L13 2.77002Z" stroke="#FFC229" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
 `,
-    analytics: `<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+    hrAnalyticsIcon: `<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M18.3333 20.77V10.77M12.3333 20.77V4.77002M6.33325 20.77V14.77" stroke="#FFC229" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
