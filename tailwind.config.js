@@ -36,6 +36,7 @@ export default {
         "custom-xmd": "30px",
         "custom-md": "27.02px",
         "custom-sm": "17px",
+        "custom-xs": "11px",
       },
       lineHeight: {
         118: "118%",
