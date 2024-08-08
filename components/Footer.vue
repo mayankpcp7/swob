@@ -4,7 +4,7 @@
     <NuxtLink class="sm:hidden flex" to="/">
         <NuxtImg width={139} height={32} src="/assets/images/png/footer-logo.png" alt="footer-logo" class="w-100 mb-6" />
     </NuxtLink>
-    <p class="text-base font-normal text-black leading-140 md:mb-0 mb-8">@ 2023 SWOB. All rights reserved.</p>
+    <p class="text-base font-normal text-black leading-140 md:mb-0 mb-8">@ {{ new Date().getFullYear() }} SWOB. All rights reserved.</p>
     <div class="flex md:gap-12 gap-8 justify-center items-center flex-wrap">
         <ul class="flex justify-center gap-8">
             <li>
