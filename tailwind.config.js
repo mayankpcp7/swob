@@ -20,10 +20,7 @@ export default {
         "light-gray": "#f5f5f5",
         "border-white": "#dedede",
         "light-black": "#090914",
-      },
-      backgroundImage: {
-        "yellow-gradient":
-          " linear-gradient(192.34deg, #FFD364 0%, #FFBB10 98.09%)",
+        "input-gray": "#646464",
       },
       borderRadius: {
         "custom-xl": "20px",
@@ -62,7 +59,7 @@ export default {
         inter: ["Inter", "sans-serif"],
       },
       backgroundImage: {
-        gradientYellow:
+        "yellow-gradient":
           "linear-gradient(192.34deg, #FFD364 0%, #FFBB10 98.09%)",
         comment: "url(/assets/images/png/bg-comment.png)",
       },
