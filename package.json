@@ -12,7 +12,9 @@
   "dependencies": {
     "@nuxt/image": "^1.7.0",
     "nuxt": "^3.12.4",
-    "vue": "latest"
+    "vue": "latest",
+    "vue-phone-number-input": "^1.12.13",
+    "vue-tel-input": "^9.1.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",

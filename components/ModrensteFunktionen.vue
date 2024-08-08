@@ -340,3 +340,16 @@ onUnmounted(() => {
     </div>
   </div>
 </template>
+<script setup>
+import Icons from "./common/Icons.vue";
+import BaseInput from "./common/Input.vue";
+</script>
+
+<style>
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 18px;
+}
+</style>
