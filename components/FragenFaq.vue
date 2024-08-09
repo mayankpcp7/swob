@@ -7,8 +7,7 @@ const toggleAccordion = (index) => {
   openAccordion.value = openAccordion.value === index ? null : index;
 };
 </script>
-
- <template>
+<template>
   <div class="bg-light-gray lg:pb-20 md:pb-16 pb-12 xl:pt-[191px] md:pt-[150px] sm:pt-[110px] pt-12 relative">
     <NuxtImg src="/assets/images/webp/faq-layer.webp" alt="faq-layer" class="absolute w-full top-0 sm:block hidden"/>
     <div class="container xl:max-w-[1304px] mx-auto px-3 relative z-10">
@@ -21,10 +20,10 @@ const toggleAccordion = (index) => {
         <div
           v-for="(item, index) in ACCORDION_DATA"
           :key="index"
-          class="md:pt-7 pb-5 md:px-8 px-8 pt-8 rounded-[10px] bg-white duration-300 shadow-accordain-shadow"
+          class="md:pt-7 pb-5 md:px-8 px-8 pt-8 rounded-[10px] bg-white shadow-accordain-shadow overflow-hidden"
         >
           <div
-            class="flex justify-between items-center accordion-title cursor-pointer pb-3"
+            class="flex justify-between items-center cursor-pointer pb-3"
             @click="toggleAccordion(index)"
           >
             <div
@@ -34,19 +33,19 @@ const toggleAccordion = (index) => {
             </div>
             <div
               :class="{
-                'rotate-[180deg]': openAccordion === index
+                'rotate-180': openAccordion === index
               }"
-              class="transition-all duration-300 ease-linear"
+              class="transition-transform duration-300 ease-linear"
             >
               <Icons name="accordianArrow"/>
             </div>
           </div>
           <div
-            :class="{
-              'accordion-content': true,
-              'open max-h-[500px] opacity-100 transition-[max-height,opacity] duration-500 ease-custom delay-100': openAccordion === index
+            :style="{
+              maxHeight: openAccordion === index ? '500px' : '0px',
+              opacity: openAccordion === index ? '1' : '0'
             }"
-            class="text-base max-h-0 opacity-0 overflow-hidden transition-[max-height,opacity] duration-500 ease-custom delay-100 leading-normal text-black font-normal lg:max-w-[1170px] w-full"
+            class="text-base overflow-hidden transition-[max-height,opacity] duration-500 ease-custom delay-100 leading-normal text-black font-normal lg:max-w-[1170px] w-full"
           >
             {{ item.content }}
           </div>
