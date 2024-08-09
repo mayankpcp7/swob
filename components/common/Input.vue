@@ -3,7 +3,7 @@
     <input
       :value="modelValue"
       @input="$emit('update:modelValue', $event.target.value)"
-      :class="`border border-border-white rounded-md placeholder-text-custom-xs outline-none px-5 text-offblack leading-md w-full h-12 ${className}`"
+      :class="`border border-border-white rounded-md placeholder-text-custom-xs outline-none px-3 md:px-5 text-offblack leading-md w-full h-[30px] md:h-12 ${className}`"
       :type="type"
       :placeholder="placeholder"
     />
@@ -11,29 +11,28 @@
 </template>
 
 <script setup>
-import { defineProps, defineEmits } from 'vue';
+import { defineProps, defineEmits } from "vue";
 
 const props = defineProps({
   modelValue: {
     type: String,
-    default: '',
+    default: "",
   },
   placeholder: {
     type: String,
-    default: '',
+    default: "",
   },
   className: {
     type: String,
-    default: '',
+    default: "",
   },
   type: {
     type: String,
-    default: 'text',
+    default: "text",
   },
 });
 
-const emits = defineEmits(['update:modelValue']);
+const emits = defineEmits(["update:modelValue"]);
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

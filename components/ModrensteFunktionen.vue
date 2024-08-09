@@ -3,11 +3,11 @@ import Icons from "./common/Icons.vue";
 import BaseInput from "./common/Input.vue";
 import { computed, ref, onMounted, onUnmounted } from "vue";
 
-const size = ref(220); // Diameter of the circle
-const strokeWidth = ref(18); // Thickness of the circle
-const totalTime = ref(5940); // Total time in seconds for 1:39:00
-const initialProgress = ref(60); // Starting progress at 60%
-const timeLeft = ref(totalTime.value * (initialProgress.value / 100)); // Adjust the starting time left based on initial progress
+const size = ref(220);
+const strokeWidth = ref(18);
+const totalTime = ref(11938);
+const initialProgress = ref(50);
+const timeLeft = ref(totalTime.value * (initialProgress.value / 100));
 
 const progress = computed(() => (timeLeft.value / totalTime.value) * 100);
 
@@ -52,9 +52,9 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="container max-w-[1344px] px-4 mx-auto">
+  <div class="container pb-12 max-w-[1344px] px-4 mx-auto">
     <h2
-      class="text-off-black font-semibold leading-[1.22] pb-5 pt-12 text-custom-xmd lg:text-custom-lg sm:text-center"
+      class="text-off-black font-semibold leading-[1.22] pb-4 sm:pb-5 pt-12 text-custom-xmd lg:text-custom-lg sm:text-center"
     >
       Modernste Funktionen für fortschrittliches HR
     </h2>
@@ -65,7 +65,9 @@ onUnmounted(() => {
       dir helfen, mehr Nutzer zu konvertieren, zu engagieren und zu binden. Über
       4.000 Start-ups vertrauen uns.
     </p>
-    <div class="flex flex-col gap-4 w-full mt-12 md:flex-row sm:mt-8 lg:gap-8">
+    <div
+      class="flex flex-col gap-4 w-full md:flex-row justify-center xl:justify-between mt-12 sm:mt-8 lg:gap-8"
+    >
       <div
         class="flex xl:w-7/12 md:w-6/12 flex-col w-full p-4 bg-yellow-gradient rounded-xl lg:px-12 lg:pt-12 lg:pb-7 max-w-[752px]"
       >
@@ -88,22 +90,30 @@ onUnmounted(() => {
           <div class="flex items-center justify-between">
             <div class="flex items-center">
               <Icons name="personendaten" />
-              <p class="ps-2 text-base font-bold leading-3">Personendaten</p>
+              <p class="ps-2 text-custom-xxs sm:text-base font-bold leading-3">
+                Personendaten
+              </p>
             </div>
-            <Icons name="droparrow" />
+            <Icons name="dropArrow" />
           </div>
-          <div class="flex w-full pt-4">
+          <div class="flex w-full pt-3 sm:pt-4">
             <div class="flex flex-col">
-              <p class="mb-1 text-xs font-bold text-off-black">Vorname</p>
+              <p class="mb-1 text-[7.46px] sm:text-xs font-bold text-off-black">
+                Vorname
+              </p>
               <BaseInput placeholder="" />
             </div>
             <div class="flex flex-col ms-6">
-              <p class="mb-1 text-xs font-bold text-off-black">Nachname</p>
+              <p class="mb-1 text-[7.46px] sm:text-xs font-bold text-off-black">
+                Nachname
+              </p>
               <BaseInput placeholder="" />
             </div>
           </div>
           <div class="flex flex-col w-full pt-4">
-            <p class="mb-1 text-xs font-bold text-off-black">Geburtsdatum</p>
+            <p class="mb-1 text-[7.46px] sm:text-xs font-bold text-off-black">
+              Geburtsdatum
+            </p>
             <div
               class="flex items-center w-full px-3 border rounded-md border-border-white"
             >
@@ -118,34 +128,14 @@ onUnmounted(() => {
           </div>
           <div class="flex w-full pt-4">
             <div class="flex flex-col w-full">
-              <p class="mb-1 text-xs font-bold text-off-black">Nationalität</p>
-              <div class="relative flex w-full">
-                <select
-                  class="w-full px-3 py-2.5 text-off-black border border-border-white rounded-md sm:px-5 text-md appearance-none focus:outline-none"
-                >
-                  <option>Schweiz</option>
-                  <option>Germany</option>
-                  <option>Austria</option>
-                </select>
-                <span
-                  class="absolute top-1/2 right-3 sm:right-6 transform -translate-y-1/2 z-10 pointer-events-none"
-                >
-                  <Icons
-                    classname="cursor-pointer max-w-2 sm:max-w-3.5"
-                    name="selectarrow"
-                  />
-                </span>
-              </div>
-            </div>
-            <div class="flex flex-col w-full ms-[14px] md:ms-6">
-              <p class="mb-1 text-xs font-bold text-off-black">
-                Aufenthaltsstatus
+              <p class="mb-1 text-[7.46px] sm:text-xs font-bold text-off-black">
+                Nationalität
               </p>
               <div class="relative flex w-full">
                 <select
-                  class="w-full px-3 py-2.5 sm:text-lg text-custom-xs border border-border-white rounded-md text-input-gray appearance-none focus:outline-none"
+                  class="w-full px-3 py-2.5 md:text-lg truncate pr-6 text-custom-xs border border-border-white rounded-md text-input-gray appearance-none focus:outline-none"
                 >
-                  <option>Aufenthaltsstatus...</option>
+                  <option>Schweiz</option>
                   <option>Germany</option>
                   <option>Austria</option>
                 </select>
@@ -153,8 +143,30 @@ onUnmounted(() => {
                   class="absolute top-1/2 right-3 md:right-5 transform -translate-y-1/2 z-10 pointer-events-none"
                 >
                   <Icons
-                    classname="cursor-pointer !max-w-2 sm:max-w-3.5"
-                    name="selectarrow"
+                    class="cursor-pointer !max-w-2 sm:max-w-3.5"
+                    name="selectArrow"
+                  />
+                </span>
+              </div>
+            </div>
+            <div class="flex flex-col w-full ms-[14px] md:ms-6">
+              <p class="mb-1 text-[7.46px] sm:text-xs font-bold text-off-black">
+                Aufenthaltsstatus
+              </p>
+              <div class="relative flex w-full">
+                <select
+                  class="w-full px-3 py-2.5 md:text-lg truncate pr-6 text-custom-xs border border-border-white rounded-md text-input-gray appearance-none focus:outline-none"
+                >
+                  <option>Aufenthaltsstatus</option>
+                  <option>Germany</option>
+                  <option>Austria</option>
+                </select>
+                <span
+                  class="absolute top-1/2 right-3 md:right-5 transform -translate-y-1/2 z-10 pointer-events-none"
+                >
+                  <Icons
+                    class="cursor-pointer !max-w-2 sm:max-w-3.5"
+                    name="selectArrow"
                   />
                 </span>
               </div>
@@ -166,7 +178,7 @@ onUnmounted(() => {
         class="flex xl:w-5/12 w-full md:w-6/12 flex-col p-4 bg-yellow-gradient rounded-xl md:max-w-[528px] xl:px-12 lg:pt-12 lg:pb-7"
       >
         <div
-          class="flex flex-col mt-16 mx-auto bg-white border border-border-white rounded-lg"
+          class="flex flex-col sm:mt-5 md:mt-16 mx-auto bg-white border border-border-white rounded-lg"
         >
           <div class="flex items-center p-3">
             <Icons name="sixdots" />
@@ -213,11 +225,15 @@ onUnmounted(() => {
         </p>
       </div>
     </div>
-    <div class="flex flex-col gap-4 mt-4 xl:mt-12 md:flex-row lg:mt-8 lg:gap-8">
+    <div
+      class="flex flex-col gap-4 mt-4 md:flex-row justify-center xl:justify-between lg:mt-8 lg:gap-8"
+    >
       <div
         class="flex xl:w-5/12 md:w-6/12 w-full flex-col p-4 bg-yellow-gradient rounded-xl md:max-w-[528px] lg:px-12 lg:pt-12 pb-7 lg:pb-10"
       >
-        <div class="flex p-4 mx-auto mt-7 bg-white rounded-full max-w-[252px]">
+        <div
+          class="flex p-4 mx-auto mt-4 sm:mt-7 bg-white rounded-full max-w-[252px]"
+        >
           <div class="relative w-[220px] h-[220px] mx-auto">
             <svg class="w-full h-full transform -rotate-90">
               <defs>
@@ -255,9 +271,11 @@ onUnmounted(() => {
                 :stroke-dashoffset="offset"
                 stroke="url(#gradientStroke)"
                 stroke-width="18"
+                stroke-linecap="round"
                 fill="transparent"
               />
             </svg>
+
             <div
               class="absolute inset-0 flex flex-col items-center justify-center"
             >
@@ -268,7 +286,7 @@ onUnmounted(() => {
           </div>
         </div>
         <h3
-          class="mt-7 text-off-black font-bold leading-[1.18] text-start text-custom-md"
+          class="mt-8 text-off-black font-bold leading-[1.18] text-start text-custom-md"
         >
           Lorem ipsum dolor sit amet consectetur. Commodo laoreet volutpat nulla
           nunc faucibus in in viverra.
@@ -280,7 +298,7 @@ onUnmounted(() => {
         </p>
       </div>
       <div
-        class="flex xl:w-7/12 md:w-6/12 w-full flex-col p-4 bg-yellow-gradient w-full rounded-xl sm:max-w-[752px] lg:px-12 lg:pt-12 lg:pb-7"
+        class="flex xl:w-7/12 md:w-6/12 flex-col p-4 bg-yellow-gradient w-full rounded-xl sm:max-w-[752px] lg:px-12 lg:pt-12 lg:pb-7"
       >
         <h5
           class="text-start text-off-black font-bold tracking-tighter leading-[1.18] max-w-[630px] text-custom-md"
@@ -295,44 +313,90 @@ onUnmounted(() => {
           sollicitudin viverra. Phasellus elementum potenti lacinia commodo
           sollicitudin diam massa.
         </p>
-        <div class="flex flex-col rounded-custom-xl bg-white lg:px-6 px-4 py-3 lg:py-4 mt-11">
+        <div
+          class="flex flex-col rounded-lg sm:rounded-custom-xl bg-white lg:px-6 sm:px-4 px-2 py-1.5 sm:py-3 lg:py-4 mt-4 md:mt-11"
+        >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
               <p class="text-yellow font-bold sm:text-base text-[5.79px]">
                 Teammitglied
               </p>
-              <p class="text-start text-[8.68px] text-lg  xl:text-2xl font-bold">
+              <p
+                class="text-start text-[8.68px] sm:text-custom-xs md:text-lg xl:text-2xl font-bold"
+              >
                 Odila Kühn
               </p>
             </div>
-            <div class="flex items-center gap-4 h-full">
+            <div class="flex items-center gap-1 sm:gap-4 sm: h-full">
               <div
-                class="border lg:py-3 lg:px-5 py-[5.29px] px-2 flex items-center  border-border-white rounded-lg"
+                class="border lg:py-3 lg:px-5 py-1 rounded-custom-sm sm:py-1 px-2 flex items-center border-border-white md:rounded-lg"
               >
-                <p class="text-off-black">Bearbeiten</p>
-                <Icons class="ms-2.5" name="note" />
+                <p
+                  class="text-off-black text-[5.06px] sm:text-custom-xs font-bold"
+                >
+                  Bearbeiten
+                </p>
+                <Icons class="ms-[2.5px] sm:ms-1 md:ms-2.5" name="note" />
               </div>
-              <div class="border border-border-white lg:p-3.5 p-2 rounded-lg">
+              <div
+                class="border border-border-white lg:p-3.5 rounded-custom-sm p-1 md:p-2 md:rounded-lg"
+              >
                 <Icons name="profile" />
               </div>
             </div>
           </div>
-          <div class="flex items-center mt-4 gap-8">
+          <div class="flex items-center mt-1.5 sm:mt-4 md:gap-8 gap-3">
             <NuxtImg
               width="180"
               height="180"
-              class="w-full max-w-[120px] xl:max-w-[180px]"
+              class="w-full max-w-16 md:max-w-[120px] xl:max-w-[180px]"
               src="/assets/images/webp/odila-girl.webp"
             />
-            <div class="flex flex-col">
-              <p class="text-start font-bold text-off-black text-xs">
-                E-Mail-Adresse
-              </p>
-              <p class="mt-2.5 text-off-black text-[6.51px] sm:text-sm lg:text-lg">odila@swob.com</p>
-              <p class="text-start font-bold pt-4 text-off-black text-xs">
-                Rolle
-              </p>
-              <p class="mt-2.5 text-off-black text-[6.51px] sm:text-sm lg:text-lg">Produkt Designer</p>
+            <div class="flex md:flex-row justify-between w-full">
+              <div class="flex flex-col">
+                <p
+                  class="text-start font-bold text-off-black text-custom-4xs sm:text-xs"
+                >
+                  E-Mail-Adresse
+                </p>
+                <p
+                  class="md:mt-2.5 mt-1 text-off-black text-[6.51px] sm:text-sm lg:text-lg"
+                >
+                  odila@swob.com
+                </p>
+                <p
+                  class="text-start font-bold pt-1 sm:pt-4 text-off-black text-custom-4xs sm:text-xs"
+                >
+                  Rolle
+                </p>
+                <p
+                  class="md:mt-2.5 mt-1 text-off-black text-[6.51px] sm:text-sm lg:text-lg"
+                >
+                  Produkt Designer
+                </p>
+              </div>
+              <div class="flex flex-col md:hidden">
+                <p
+                  class="text-start font-bold text-off-black text-custom-4xs sm:text-xs"
+                >
+                  Telefonnummer
+                </p>
+                <p
+                  class="md:mt-2.5 mt-1 text-off-black text-[6.51px] sm:text-sm lg:text-lg"
+                >
+                  999999999
+                </p>
+                <p
+                  class="text-start font-bold pt-1 sm:pt-4 text-off-black text-custom-4xs sm:text-xs"
+                >
+                  Abteilung
+                </p>
+                <p
+                  class="md:mt-2.5 mt-1 text-off-black text-[6.51px] sm:text-sm lg:text-lg"
+                >
+                  Design, Marketing
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -340,12 +404,3 @@ onUnmounted(() => {
     </div>
   </div>
 </template>
-
-<style>
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  font-size: 18px;
-}
-</style>
