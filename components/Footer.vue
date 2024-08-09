@@ -8,7 +8,7 @@
     <div class="flex lg:gap-12 md:gap-10 gap-8 justify-center items-center flex-wrap">
         <ul class="flex justify-center gap-8">
   <li v-for="link in FOOTER_LINKS" :key="link.url">
-    <NuxtLink :to="link.url" class="font-normal text-base text-black uppercase cursor-pointer hover:text-yellow transition-colors duration-300">
+    <NuxtLink :to="link.url" class="font-normal text-base text-black uppercase cursor-pointer relative hover:after:w-[100%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-black after:h-[2px] after:left-[0] after:bottom-[-5px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear">
       {{ link.link }}
     </NuxtLink>
   </li>
