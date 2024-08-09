@@ -41,9 +41,9 @@ const toggleAccordion = (index) => {
             </div>
           </div>
           <div
-            :style="{
-              maxHeight: openAccordion === index ? '500px' : '0px',
-              opacity: openAccordion === index ? '1' : '0'
+            :class="{
+              'max-h-[500px] opacity-100': openAccordion === index,
+              'max-h-0 opacity-0': openAccordion !== index
             }"
             class="text-base overflow-hidden transition-[max-height,opacity] duration-500 ease-custom delay-100 leading-normal text-black font-normal lg:max-w-[1170px] w-full"
           >
