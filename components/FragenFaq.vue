@@ -46,7 +46,7 @@ const toggleAccordion = (index) => {
               'accordion-content': true,
               'open max-h-[500px] opacity-100 transition-[max-height,opacity] duration-500 ease-custom delay-100': openAccordion === index
             }"
-            class="text-base max-h-0 opacity-0 overflow-hidden transition-[max-height,opacity] duration-500 ease-custom delay-100 leading-normal text-black font-normal lg:max-w-[1136px]w-full"
+            class="text-base max-h-0 opacity-0 overflow-hidden transition-[max-height,opacity] duration-500 ease-custom delay-100 leading-normal text-black font-normal lg:max-w-[1170px] w-full"
           >
             {{ item.content }}
           </div>
