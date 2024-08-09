@@ -33,7 +33,7 @@
                   <InputV v-model="formData.phoneNumber" placeholder="Handynummer" type="number" class="ps-20 !border-l-0" required />
                 </div>
                 <button
-                  class="w-full max-w-[482px] hover:bg-white border hover:text-black duration-300 hover:border hover:border-black border-transparent bg-black text-white leading-120 rounded-full p-3.5 border-transparent">
+                  class="w-full max-w-[482px] hover:bg-white border hover:text-black duration-300 hover:border hover:border-black border-transparent bg-black text-white leading-120 rounded-full p-3.5">
                   Jetzt registrieren
                 </button>
               </form>
