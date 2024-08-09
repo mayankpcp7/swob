@@ -1,7 +1,6 @@
  <script setup>
 import Icons from "./common/Icons.vue";
 import { ref } from 'vue';
-
 const openAccordion = ref(null);
 const toggleAccordion = (index) => {
   openAccordion.value = openAccordion.value === index ? null : index;
