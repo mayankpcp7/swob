@@ -1,10 +1,13 @@
 <template>
     <div class="container xl:max-w-[1304px] px-4 mx-auto lg:pt-3">
 <div class="pt-6 pb-9 flex items-center md:justify-between justify-center flex-wrap">
-    <NuxtLink class="sm:hidden flex" to="/">
+    <div class="flex flex-col justify-center items-center">
+          <NuxtLink class="sm:hidden flex" to="/">
         <NuxtImg width={139} height={32} src="/assets/images/webp/footer-logo.webp" alt="footer-logo" class="w-100 max-w-[139px] mb-6" />
     </NuxtLink>
     <p class="text-base font-normal text-black leading-140 md:mb-0 mb-8">@ {{ new Date().getFullYear() }} SWOB. All rights reserved.</p>
+    </div>
+  
     <div class="flex lg:gap-12 md:gap-10 gap-8 justify-center items-center flex-wrap">
         <ul class="flex justify-center gap-8">
   <li v-for="link in FOOTER_LINKS" :key="link.url">
