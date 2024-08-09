@@ -20,6 +20,7 @@ export default {
         "light-gray": "#f5f5f5",
         "light-black": "#090914",
         "border-white": "#dedede",
+        "input-gray": "#646464",
       },
       backgroundImage: {
         "yellow-gradient":
@@ -28,12 +29,10 @@ export default {
       },
       backgroundSize: {
         "Size-100": "100% 100%",
-        "border-white": "#dedede",
-        "light-black": "#090914",
-        "input-gray": "#646464",
       },
       borderRadius: {
         "custom-xl": "20px",
+        "custom-sm": "2.89px",
       },
       fontSize: {
         "custom-4xl": "60px",
@@ -45,7 +44,9 @@ export default {
         "custom-md": "27.02px",
         "custom-sm": "17px",
         "custom-xs": "11px",
-        "custom-xxs": "9.94px",
+        "custom-xxs": "9.95px",
+        "custom-3xs": "6.51px",
+        "custom-4xs": "4.34px",
       },
       lineHeight: {
         118: "118%",

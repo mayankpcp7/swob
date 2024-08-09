@@ -32,5 +32,6 @@
 </template>
 
 <script setup>
-import Icons from "./common/Icons.vue";
+import Icons from './common/Icons.vue';
+
 </script>

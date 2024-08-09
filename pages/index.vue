@@ -11,7 +11,7 @@ import ModrensteFunktionen from "~/components/ModrensteFunktionen.vue";
 </script>
 
 <template>
-  <div>
+  <div class="overflow-hidden">
     <NavBar />
     <Hero />
     <Metablu />
