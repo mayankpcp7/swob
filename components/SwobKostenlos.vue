@@ -21,7 +21,7 @@
                         <div class="bg-comment shadow-comment-box sm:h-[58.88px] h-[37px] absolute bg-Size-100 bg-center bg-no-repeat flex items-center justify-center shadow-commentbox">
                             <p class="font-medium sm:text-base text-custom-xxs text-dark-gray rotate-[5deg] mb-1 pl-[11.86px] pr-[10.57px]">Hey, jetzt kostenfrei testen!</p>
                         </div>
-                        <NuxtImg class="w-100" width={300} height={300} src="/assets/images/png/Swob-kostenlos.png"
+                        <NuxtImg class="w-100" width={300} height={300} src="/assets/images/webp/Swob-kostenlos.webp"
                             alt="Swob-kostenlos" />
                     </div>
                 </div>

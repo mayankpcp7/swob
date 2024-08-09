@@ -279,7 +279,7 @@ onUnmounted(() => {
         </p>
       </div>
       <div
-        class="flex xl:w-7/12 md:w-6/12 w-full flex-col p-4 bg-yellow-gradient w-full rounded-xl sm:max-w-[752px] lg:px-12 lg:pt-12 lg:pb-7"
+        class="flex xl:w-7/12 md:w-6/12 flex-col p-4 bg-yellow-gradient w-full rounded-xl sm:max-w-[752px] lg:px-12 lg:pt-12 lg:pb-7"
       >
         <h5
           class="text-start text-off-black font-bold tracking-tighter leading-[1.18] max-w-[630px] text-custom-md"
