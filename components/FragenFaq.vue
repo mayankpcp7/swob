@@ -37,10 +37,10 @@ const toggleAccordion = async (index) => {
         <div
           v-for="(item, index) in ACCORDION_DATA"
           :key="index"
-          class="md:pt-7 pb-5 md:px-8 px-8 pt-8 rounded-[10px] bg-white shadow-accordain-shadow overflow-hidden"
+          class="md:p-8 p-5 rounded-[10px] bg-white shadow-accordain-shadow overflow-hidden"
         >
           <div
-            class="flex justify-between items-center cursor-pointer pb-3"
+            class="flex justify-between items-center cursor-pointer"
             @click="toggleAccordion(index)"
           >
             <div
@@ -65,7 +65,7 @@ const toggleAccordion = async (index) => {
             }"
             class="text-base overflow-hidden transition-[max-height,opacity] duration-500 ease-in-out delay-100 leading-normal max-h-0 text-black font-normal lg:max-w-[1170px] w-full"
           >
-            <div class="py-4">
+            <div class="pt-3">
               {{ item.content }}
             </div>
           </div>
