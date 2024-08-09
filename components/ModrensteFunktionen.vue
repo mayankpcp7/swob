@@ -66,7 +66,7 @@ onUnmounted(() => {
       4.000 Start-ups vertrauen uns.
     </p>
     <div
-      class="flex flex-col gap-4 w-full md:flex-row justify-center xl:justify-between mt-12 sm:mt-8 lg:gap-8"
+      class="flex flex-col gap-4 w-full md:flex-row justify-center xl:justify-between mt-12 md:mt-8 lg:gap-8"
     >
       <div
         class="flex xl:w-7/12 md:w-6/12 flex-col w-full p-4 bg-yellow-gradient rounded-xl lg:px-12 lg:pt-12 lg:pb-7 max-w-[752px]"
@@ -313,7 +313,7 @@ onUnmounted(() => {
           sollicitudin diam massa.
         </p>
         <div
-          class="flex flex-col rounded-lg sm:rounded-custom-xl bg-white lg:px-6 sm:px-4 px-2 py-1.5 sm:py-3 lg:py-4 mt-4 md:mt-11"
+          class="flex flex-col max-w-[550px] min-w-[311px] md:min-w-0 custom-xs:min-w-[370px] sm:min-w-[400px] mx-auto md:mx-0 md:max-w-full rounded-lg sm:rounded-custom-xl bg-white lg:px-6 sm:px-4 px-2 py-1.5 sm:py-3 lg:py-4 mt-4 md:mt-11"
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">

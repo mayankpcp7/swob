@@ -10,6 +10,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'custom-xs':'425px',
+      },
       colors: {
         "off-black": "#16151c",
         "light-black": "#171717",
