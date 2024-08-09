@@ -163,7 +163,7 @@ onUnmounted(() => {
         </div>
       </div>
       <div
-        class="flex xl:w-5/12 w-full md:w-6/12 flex-col p-4 bg-yellow-gradient rounded-xl sm:max-w-[528px] xl:px-12 lg:pt-12 lg:pb-7"
+        class="flex xl:w-5/12 w-full md:w-6/12 flex-col p-4 bg-yellow-gradient rounded-xl md:max-w-[528px] xl:px-12 lg:pt-12 lg:pb-7"
       >
         <div
           class="flex flex-col mt-16 mx-auto bg-white border border-border-white rounded-lg"
@@ -215,7 +215,7 @@ onUnmounted(() => {
     </div>
     <div class="flex flex-col gap-4 mt-4 xl:mt-12 md:flex-row lg:mt-8 lg:gap-8">
       <div
-        class="flex xl:w-5/12 md:w-6/12 w-full flex-col p-4 bg-yellow-gradient rounded-xl sm:max-w-[528px] lg:px-12 lg:pt-12 pb-7 lg:pb-10"
+        class="flex xl:w-5/12 md:w-6/12 w-full flex-col p-4 bg-yellow-gradient rounded-xl md:max-w-[528px] lg:px-12 lg:pt-12 pb-7 lg:pb-10"
       >
         <div class="flex p-4 mx-auto mt-7 bg-white rounded-full max-w-[252px]">
           <div class="relative w-[220px] h-[220px] mx-auto">
