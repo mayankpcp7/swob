@@ -254,7 +254,6 @@ onUnmounted(() => {
                   />
                 </linearGradient>
               </defs>
-
               <circle
                 cx="110"
                 cy="110"

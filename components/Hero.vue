@@ -1,12 +1,12 @@
 <template>
     <section class="bg-yellow relative py-12 md:py-16 lg:py-20">
       <div class="container max-w-[1060px] mx-auto px-4 md:px-3">
-        <div class="row flex-row pb-9 flex-wrap flex">
+        <div class="row flex-row pb-9 lg:pb-[60px] flex-wrap flex">
           <div class="w-full md:w-7/12">
-            <h1 class="font-semibold max-w-[530px] font-inter tracking-[-4%] text-off-black text-center px-4 sm:px-0 md:text-start mx-auto md:mx-0 mb-4 mb-md-4 !leading-120 text-custom-xmd md:text-custom-4xl">
+            <h1 class="font-semibold max-w-[530px] font-inter tracking-[-4%] text-off-black text-center px-4 sm:px-0 md:text-start mx-auto md:mx-0 mb-4 md:mb-6 !leading-120 text-custom-xmd md:text-custom-4xl">
               Revolutioniere dein HR-Management
             </h1>
-            <p class="text-gray font-normal !leading-144 max-w-[414px] mb-8 mb-md-6 text-center mx-auto md:mx-0 md:text-start text-lg">
+            <p class="text-gray font-normal !leading-145 max-w-[414px] mb-8 mb-md-6 text-center mx-auto md:mx-0 md:text-start text-lg">
               Eine HR-Software für jede Unternehmensgröße. Bleib über unsere Einführung auf dem Laufenden.
             </p>
             <div class="bg-white mx-auto md:mx-0 max-w-[530px] mb-10 md:mb-0 p-6 rounded-[20px]">
@@ -33,7 +33,7 @@
                   <InputV v-model="formData.phoneNumber" placeholder="Handynummer" type="number" class="ps-20 !border-l-0" required />
                 </div>
                 <button
-                  class="w-full max-w-[482px] hover:bg-white border hover:text-black duration-300 hover:border hover:border-black border-transparent bg-black text-white leading-120 rounded-full p-3.5 border-transparent">
+                  class="w-full max-w-[482px] hover:bg-white border hover:text-black duration-300 hover:border hover:border-black border-transparent bg-black text-white leading-120 rounded-full p-3.5">
                   Jetzt registrieren
                 </button>
               </form>

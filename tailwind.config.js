@@ -25,7 +25,7 @@ export default {
       backgroundImage: {
         "yellow-gradient":
           " linear-gradient(192.34deg, #FFD364 0%, #FFBB10 98.09%)",
-        comment: "url(/assets/images/png/bg-comment.png)",
+        comment: "url(/assets/images/webp/bg-comment.webp)",
       },
       backgroundSize: {
         "Size-100": "100% 100%",
@@ -57,6 +57,7 @@ export default {
         170: "170%",
         121: "121%",
         144: "144%",
+        145: "145%",
         111: "111%",
         133: "133%",
         120: "120%",
@@ -73,9 +74,23 @@ export default {
         inter: ["Inter", "sans-serif"],
       },
       boxShadow: {
-        "accordain-shadow": "0px 0px 6px 0px #00000012",
-        // "comment-box":
-        //   "0px 0px 0px 0px #0000001A, -2px 5px 11px 0px #0000001A, -7px 18px 20px 0px #00000017, -16px 41px 26px 0px #0000000D, -29px 73px 31px 0px #00000003, -46px 114px 34px 0px #00000000",
+        "accordain-shadow":
+          "0px 0px 6px 0px #00000012, 0px 10px 15px -3px #0000001A",
+      },
+      dropShadow: {
+        "comment-box": "-10px 18px 18px #0000004a",
+      },
+      transitionProperty: {
+        "height-opacity": "max-height, opacity",
+      },
+      transitionDuration: {
+        500: "500ms",
+      },
+      transitionTimingFunction: {
+        "ease-custom": "ease 0.5s",
+      },
+      transitionDelay: {
+        100: "100ms",
       },
     },
   },

@@ -12,6 +12,33 @@ export const NAV_LINKS_LIST = [
   { link: "Kontakt", url: "" },
   { link: "FAQ", url: "" },
 ];
+export const FOOTER_LINKS = [
+  { link: "AGB", url: "" },
+  { link: "DSGVO", url: "" },
+  { link: "kontakt", url: "" },
+];
+export const socialLinks = [
+  {
+    socialicon: "youtubeSocialIcon",
+    url: "https://www.youtube.com/",
+  },
+  {
+    socialicon: "facebookSocialIcon",
+    url: "https://www.facebook.com/",
+  },
+  {
+    socialicon: "twitterSocialIcon",
+    url: "https://x.com/",
+  },
+  {
+    socialicon: "instagramSocialIcon",
+    url: "https://www.instagram.com/",
+  },
+  {
+    socialicon: "linkdinSocialIcon",
+    url: "https://www.linkedin.com/",
+  },
+];
 export const CARDS_DATA_LIST = [
   {
     iconName: "messageBoxIcon",
@@ -32,7 +59,7 @@ export const CARDS_DATA_LIST = [
       "Triff datengestützte Entscheidungen mit den fortschrittlichen HR-Analysen von SWOB. Gewinnen Sie wertvolle Einblicke in Ihre Belegschaft und optimieren Sie Ihre Personalstrategien.",
   },
 ];
-export const accordionData = [
+export const ACCORDION_DATA = [
   {
     title: "Wie funktioniert SWOB für Arbeitnehmer?",
     content:
