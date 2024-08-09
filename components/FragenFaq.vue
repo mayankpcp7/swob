@@ -37,7 +37,7 @@ const toggleAccordion = async (index) => {
         <div
           v-for="(item, index) in ACCORDION_DATA"
           :key="index"
-          class="md:p-8 p-5 rounded-[10px] bg-white shadow-accordain-shadow overflow-hidden"
+          class="md:px-8 px-5 md:py-[30px] py-8 rounded-[10px] bg-white shadow-accordain-shadow overflow-hidden"
         >
           <div
             class="flex justify-between items-center cursor-pointer"
