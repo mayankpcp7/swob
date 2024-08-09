@@ -6,7 +6,7 @@
             <h1 class="font-semibold max-w-[530px] font-inter tracking-[-4%] text-off-black text-center px-4 sm:px-0 md:text-start mx-auto md:mx-0 mb-4 md:mb-6 !leading-120 text-custom-xmd md:text-custom-4xl">
               Revolutioniere dein HR-Management
             </h1>
-            <p class="text-gray font-normal !leading-145 max-w-[414px] mb-8 mb-md-6 text-center mx-auto md:mx-0 md:text-start text-lg">
+            <p class="text-gray font-normal !leading-145 max-w-[414px] mb-8 md:mb-6 text-center mx-auto md:mx-0 md:text-start text-lg">
               Eine HR-Software für jede Unternehmensgröße. Bleib über unsere Einführung auf dem Laufenden.
             </p>
             <div class="bg-white mx-auto md:mx-0 max-w-[530px] mb-10 md:mb-0 p-6 rounded-[20px]">
