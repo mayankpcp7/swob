@@ -5,10 +5,10 @@
         <NuxtImg width={139} height={32} src="/assets/images/webp/footer-logo.webp" alt="footer-logo" class="w-100 max-w-[139px] mb-6" />
     </NuxtLink>
     <p class="text-base font-normal text-black leading-140 md:mb-0 mb-8">@ {{ new Date().getFullYear() }} SWOB. All rights reserved.</p>
-    <div class="flex md:gap-12 gap-8 justify-center items-center flex-wrap">
+    <div class="flex lg:gap-12 md:gap-10 gap-8 justify-center items-center flex-wrap">
         <ul class="flex justify-center gap-8">
   <li v-for="link in FOOTER_LINKS" :key="link.url">
-    <NuxtLink :to="link.url" class="font-normal text-base text-black uppercase cursor-pointer">
+    <NuxtLink :to="link.url" class="font-normal text-base text-black uppercase cursor-pointer hover:text-yellow transition-colors duration-300">
       {{ link.link }}
     </NuxtLink>
   </li>
