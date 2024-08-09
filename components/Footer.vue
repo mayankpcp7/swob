@@ -40,5 +40,5 @@
 </template>
 
 <script setup>
-import Icons from "./common/Icons.Vue";
+import Icons from "./common/Icons.vue";
 </script>
