@@ -80,8 +80,7 @@ export default {
         "comment-box": "-10px 18px 18px #0000004a",
       },
       transitionProperty: {
-        "max-height": "max-height",
-        opacity: "opacity",
+        "height-opacity": "max-height, opacity",
       },
       transitionDuration: {
         500: "500ms",

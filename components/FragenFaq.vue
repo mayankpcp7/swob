@@ -1,11 +1,29 @@
- <script setup>
+<script setup>
 import Icons from "./common/Icons.vue";
-import { ref } from 'vue';
+import { ref, nextTick } from 'vue';
+
 const openAccordion = ref(null);
-const toggleAccordion = (index) => {
-  openAccordion.value = openAccordion.value === index ? null : index;
+
+const toggleAccordion = async (index) => {
+  if (openAccordion.value === index) {
+    const content = document.querySelector(`#accordion-content-${index}`);
+    content.style.maxHeight = '0';
+    openAccordion.value = null;
+  } else {
+    
+    if (openAccordion.value !== null) {
+      const previousContent = document.querySelector(`#accordion-content-${openAccordion.value}`);
+      previousContent.style.maxHeight = '0';
+    }
+    
+    openAccordion.value = index;
+    await nextTick();
+    const newContent = document.querySelector(`#accordion-content-${index}`);
+    newContent.style.maxHeight = `${newContent.scrollHeight}px`;
+  }
 };
 </script>
+
 <template>
   <div class="bg-light-gray lg:pb-20 md:pb-16 pb-12 xl:pt-[191px] md:pt-[150px] sm:pt-[110px] pt-12 relative">
     <NuxtImg src="/assets/images/webp/faq-layer.webp" alt="faq-layer" class="absolute w-full top-0 sm:block hidden"/>
@@ -40,13 +58,16 @@ const toggleAccordion = (index) => {
             </div>
           </div>
           <div
+            :id="'accordion-content-' + index"
             :class="{
-              'max-h-[500px] opacity-100': openAccordion === index,
-              'max-h-0 opacity-0': openAccordion !== index
+              'opacity-100': openAccordion === index,
+              'opacity-0': openAccordion !== index
             }"
-            class="text-base overflow-hidden transition-[max-height,opacity] duration-500 ease-custom delay-100 leading-normal text-black font-normal lg:max-w-[1170px] w-full"
+            class="text-base overflow-hidden transition-[max-height,opacity] duration-500 ease-in-out delay-100 leading-normal max-h-0 text-black font-normal lg:max-w-[1170px] w-full"
           >
-            {{ item.content }}
+            <div class="py-4">
+              {{ item.content }}
+            </div>
           </div>
         </div>
       </div>
