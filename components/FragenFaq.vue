@@ -21,14 +21,14 @@ const toggleAccordion = (index) => {
         <div
           v-for="(item, index) in ACCORDION_DATA"
           :key="index"
-          class="md:pt-7 pb-5 md:px-8 px-6 pt-6 rounded-[10px] bg-white duration-300 shadow-accordain-shadow"
+          class="md:pt-7 pb-5 md:px-8 px-8 pt-8 rounded-[10px] bg-white duration-300 shadow-accordain-shadow"
         >
           <div
             class="flex justify-between items-center accordion-title cursor-pointer pb-3"
             @click="toggleAccordion(index)"
           >
             <div
-              class="w-full text-left flex items-center justify-between font-medium md:text-xl text-lg leading-110 text-black"
+              class="w-full text-left flex items-center justify-between font-medium md:text-xl text-lg leading-110 text-black max-[390px]:max-w-[246px]"
             >
               {{ item.title }}
             </div>
