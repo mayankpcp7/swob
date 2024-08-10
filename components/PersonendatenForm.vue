@@ -61,7 +61,8 @@ export default {
           <div class="flex items-center w-full px-3 border rounded-md border-border-white">
             <Icons name="gabrudatsum" />
             <BaseInput
-              type="tel"
+              type="number"
+              className="!border-0"
               class="!w-full !border-0"
               placeholder="--/--/--"
             />
