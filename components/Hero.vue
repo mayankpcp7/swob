@@ -16,12 +16,12 @@
                   <InputV v-model="formData.lastName" placeholder="Nachname" type="text" required />
                 </div>
                 <InputV v-model="formData.email" placeholder="Geschäftliche E-Mail" type="email" required />
-                <div class="mb-6 mt-4 relative">
+                <div class="mb-6 mt-4 relative border border-solid border-border-white py-3 rounded-lg">
                   <div class="flex items-center gap-2 absolute top-1/2 start-5 -translate-y-1/2">
                     <div class="bg-red w-6 h-6 rounded-full flex justify-center items-center"></div>
                     <select
                       v-model="formData.selectedCountry"
-                      class="appearance-none bg-transparent border ms-[-50px] border-r-0  border-[#ccc] px-3 py-2 rounded-l-md font-normal text-gray-dark focus:outline-none text-lg"
+                      class="appearance-none bg-transparent border ms-[-50px] border-transparent px-3 py-2 rounded-l-md font-normal text-gray-dark focus:outline-none text-lg"
                     >
                     <img src="/public/assets/images/svg/switzerland-icon.svg" alt="country logo" width="20" height="20">
                       <option v-for="country in COUNTRIES_NUMBER_LIST" :key="country.code" :value="country.code" class="flex !text-gray items-center">
@@ -30,7 +30,7 @@
                       </option>
                     </select>
                   </div>
-                  <InputV v-model="formData.phoneNumber" placeholder="Handynummer" type="number" class="ps-20 !border-l-0" required />
+                  <Input v-model="formData.phoneNumber" placeholder="Handynummer" type="number" class="!ps-20 border-transparent max-sm:max-w-[270px] outline-none placeholder:text-gray" required />
                 </div>
                 <button
                   class="w-full max-w-[482px] hover:bg-white border hover:text-black duration-300 hover:border hover:border-black border-transparent bg-black text-white leading-120 rounded-full p-3.5">
