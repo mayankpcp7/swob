@@ -42,7 +42,7 @@ const randomVideoUrl = computed(() => {
                     <h3 class="text-center text-off-black text-xl font-medium mt-5 mb-2">
                         {{ card.title }}
                     </h3>
-                    <p class="text-base font-normal text-gray mb-5 max-w-[357px] !leading-150 text-center mx-auto">
+                    <p class="text-base font-normal text-gray mb-5 max-w-[354px] !leading-150 text-center mx-auto">
                         {{ card.description }}
                     </p>
                     <NuxtLink
