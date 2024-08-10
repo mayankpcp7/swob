@@ -1,6 +1,6 @@
 <template>
     <div class="container xl:max-w-[1304px] px-4 mx-auto lg:pt-3">
-<div class="pt-6 pb-9 flex items-center md:justify-between justify-center flex-wrap">
+<div class="pt-6 sm:pb-9 pb-6 flex items-center md:justify-between justify-center flex-wrap">
     <div class="flex flex-col justify-center items-center">
           <NuxtLink class="sm:hidden flex" to="/">
         <NuxtImg width={139} height={32} src="/assets/images/webp/footer-logo.webp" alt="footer-logo" class="w-100 max-w-[139px] mb-6" />

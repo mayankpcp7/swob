@@ -3,7 +3,7 @@
         <div class="container xl:max-w-[1287px] sm:px-4 px-6 mx-auto bg-yellow-gradient lg:pt-[59px] md:pt-12 sm:pt-10 pt-6 md:rounded-[40px] sm:rounded-3xl rounded-2xl">
             <div class="flex flex-row flex-wrap justify-center items-center">
                 <div class="lg:w-6/12 lg:pb-[60px] pb-0 w-full">
-                    <p class="font-bold xl:text-custom-2xl md:text-custom-xl sm:text-custom-lg text-custom-xmd text-light-black sm:leading-110 leading-127 md:mb-[3px] mb-4">
+                    <p class="sm:font-bold font-semibold xl:text-custom-2xl md:text-custom-xl sm:text-custom-lg text-custom-xmd text-light-black sm:leading-110 leading-127 md:mb-[3px] mb-4">
                         SWOB kostenlos erleben
                     </p>
                     <p class="font-normal sm:text-lg text-custom-sm leading-164 lg:max-w-[489.95px] max-[390px]:max-w-[295px] text-dark-gray mb-4">

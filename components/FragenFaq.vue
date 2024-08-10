@@ -25,7 +25,7 @@ const toggleAccordion = async (index) => {
 </script>
 
 <template>
-  <div class="bg-light-gray lg:pb-20 md:pb-16 pb-12 xl:pt-[191px] md:pt-[150px] sm:pt-[110px] pt-12 relative">
+  <div class="sm:bg-light-gray bg-white lg:pb-20 md:pb-16 pb-12 xl:pt-[191px] md:pt-[150px] sm:pt-[110px] pt-12 relative">
     <NuxtImg src="/assets/images/webp/faq-layer.webp" alt="faq-layer" class="absolute w-full top-0 sm:block hidden"/>
     <div class="container xl:max-w-[1304px] mx-auto px-3 relative z-10">
       <h2
