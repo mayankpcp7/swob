@@ -3,10 +3,10 @@
       <div class="container max-w-[1060px] mx-auto px-4 md:px-3">
         <div class="row flex-row pb-9 lg:pb-[60px] flex-wrap flex">
           <div class="w-full md:w-7/12">
-            <h1 class="font-semibold max-w-[530px] font-inter tracking-[-4%] text-off-black text-center px-4 sm:px-0 md:text-start mx-auto md:mx-0 mb-4 md:mb-6 !leading-120 text-custom-xmd md:text-custom-4xl">
+            <h1 class="font-semibold max-w-[530px] font-inter tracking-[-4%] text-off-black text-center px-4 sm:px-0 md:text-start mx-auto md:mx-0 mb-4 md:mb-6 !leading-120 text-4xl md:text-custom-4xl">
               Revolutioniere dein HR-Management
             </h1>
-            <p class="text-gray font-normal !leading-145 max-w-[414px] mb-8 md:mb-6 text-center mx-auto md:mx-0 md:text-start text-lg">
+            <p class="text-gray font-normal sm:!leading-145 !leading-156 max-w-[414px] mb-8 md:mb-6 text-center mx-auto md:mx-0 md:text-start text-lg">
               Eine HR-Software für jede Unternehmensgröße. Bleib über unsere Einführung auf dem Laufenden.
             </p>
             <div class="bg-white mx-auto md:mx-0 max-w-[530px] mb-10 md:mb-0 p-6 rounded-[20px]">
