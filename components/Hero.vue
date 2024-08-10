@@ -1,7 +1,7 @@
 <template>
     <section class="bg-yellow relative py-12 md:py-16 lg:py-20">
       <div class="container max-w-[1060px] mx-auto px-4 md:px-3">
-        <div class="row flex-row pb-9 lg:pb-[60px] flex-wrap flex">
+        <div class="row flex-row pb-12 lg:pb-[60px] flex-wrap flex">
           <div class="w-full md:w-7/12">
             <h1 class="font-semibold max-w-[530px] font-inter tracking-[-4%] text-off-black text-center px-4 sm:px-0 md:text-start mx-auto md:mx-0 mb-4 md:mb-6 !leading-120 text-4xl md:text-custom-4xl">
               Revolutioniere dein HR-Management
