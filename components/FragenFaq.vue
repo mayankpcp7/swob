@@ -34,14 +34,13 @@ const toggleAccordion = async (index) => {
         Häufig gestellte Fragen (FAQ)
       </h2>
       <div class="w-full flex flex-col gap-6" data-aos="zoom-in-up">
-        <div
+        <div @click="toggleAccordion(index)"
           v-for="(item, index) in ACCORDION_DATA"
           :key="index"
-          class="md:px-8 px-5 md:py-[30px] py-8 rounded-[10px] bg-white shadow-accordain-shadow overflow-hidden"
+          class="md:px-8 px-5 md:py-[30px] py-8 cursor-pointer rounded-[10px] bg-white shadow-accordain-shadow overflow-hidden"
         >
           <div
-            class="flex justify-between items-center cursor-pointer"
-            @click="toggleAccordion(index)"
+            class="flex justify-between items-center"
           >
             <div
               class="w-full text-left flex items-center justify-between font-medium md:text-xl text-lg leading-110 text-black max-[390px]:max-w-[246px]"

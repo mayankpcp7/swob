@@ -35,6 +35,8 @@ export default {
       },
       borderRadius: {
         "custom-xl": "20px",
+        "custom-lg": "10px",
+        "custom-md": "3.75px",
         "custom-sm": "2.89px",
       },
       fontSize: {
@@ -67,6 +69,7 @@ export default {
         164: "164%",
         140: "140%",
         127: "127%",
+        156: "156%",
       },
       letterSpacing: {
         tighter: "-0.14px",
